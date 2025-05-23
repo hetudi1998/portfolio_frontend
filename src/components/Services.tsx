@@ -3,7 +3,7 @@ import servicebg from "../assets/service/servicebg.jpg";
 import ServiceCard from "./Card";
 
 export default function ServicesSection() {
-  const [hoveredCard, setHoveredCard] = useState<string | null>(null);
+  const [, setHoveredCard] = useState<string | null>(null);
 
   const services = [
     {

@@ -98,12 +98,15 @@ export default function Footer() {
               </nav>
             </div>
             {/* Contact */}
-            <div className="space-y-6">
-              <h3 className="bg-gradient-to-r from-[#AB69B3] to-[#C7619C] bg-clip-text text-transparent text-xl font-medium mb-6">Contact</h3>
-              <div className="mb-6">
-                <a href="#" className="text-white hover:opacity-80 transition-opacity">Portfolio-htn.com</a>
-              </div>
-            </div>
+            {/* Contact */}
+<div className="space-y-6">
+  <h3 className="bg-gradient-to-r from-[#AB69B3] to-[#C7619C] bg-clip-text text-transparent text-xl font-medium mb-6">Contact</h3>
+  <div className="flex flex-col gap-3 text-white">
+    <a href="tel:+918806456123" className="hover:opacity-80 transition-opacity">+91 88064 56123</a>
+    <a href="mailto:hetansa@gmail.com" className="hover:opacity-80 transition-opacity">hetansa@gmail.com</a>
+    <a href="https://portfolio-htn.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">Portfolio-htn.com</a>
+  </div>
+</div>
             {/* Lets talk! */}
             <div className="space-y-6">
               <h3 className="bg-gradient-to-r from-[#AB69B3] to-[#C7619C] bg-clip-text text-transparent text-xl font-medium mb-6">Lets talk!</h3>

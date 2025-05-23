@@ -1,4 +1,4 @@
-import img from "../assets/service/serviceimg2.jpg";
+
 import { ArrowUpRight } from 'lucide-react';
 
 interface ServiceCardProps {

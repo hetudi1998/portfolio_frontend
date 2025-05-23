@@ -5,7 +5,6 @@ import backgroundImage from "../assets/service/servicebg.jpg";
 import quotedown from "../assets/quote-down.svg";
 
 export default function TestimonialCarousel() {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef(null);
   const [dragConstraints, setDragConstraints] = useState({ right: 0, left: 0 });
 

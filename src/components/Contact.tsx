@@ -4,7 +4,7 @@ import { Mail, Star, Award, Shield } from "lucide-react";
 export default function ContactFormWithTicker() {
   const [email, setEmail] = useState("");
   const [tickerPositionX, setTickerPositionX] = useState(0);
-  const [tickerPositionY, setTickerPositionY] = useState(0);
+
 
   // Ticker items
   const tickerItems = [
